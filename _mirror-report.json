@@ -1,0 +1,535 @@
+{
+  "start": "https://slow-ride-coastal-descent.madasket.chatgpt.site/",
+  "origin": "https://slow-ride-coastal-descent.madasket.chatgpt.site",
+  "gated": false,
+  "sessionRenewal": "none",
+  "requests": 125,
+  "fetched": 20,
+  "bytes": 18158820,
+  "paths": [
+    "_next/static/chunks/app-route-prefetch-policy-DbMGJ1oM.js",
+    "_next/static/chunks/engine-Bi6T8dqO.js",
+    "_next/static/chunks/framework-D_rUT4EX.js",
+    "_next/static/chunks/index-BOaQCWj4.js",
+    "_next/static/chunks/layout-segment-context-wNJtNBCq.js",
+    "_next/static/chunks/page-Cxv21zlf.js",
+    "_next/static/chunks/physics-BmpKl8k3.js",
+    "_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+    "_next/static/chunks/streamed-icons-Cs-m6aYg.js",
+    "_next/static/css/index.Dso_Wg7y.css",
+    "assets/brand/rider-mark.png",
+    "assets/clothing/woodland-khaki.png",
+    "assets/forest/pine_color_1k.jpg",
+    "assets/forest/pine_normal_1k.jpg",
+    "assets/road/weathered-asphalt.png",
+    "cdn-cgi/challenge-platform/scripts/jsd/main.js",
+    "favicon.svg",
+    "index.html",
+    "menu.mp3",
+    "soundtrack.mp3"
+  ],
+  "unresolved": [],
+  "unreachable": [
+    {
+      "status": 400,
+      "path": "_next/image",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/_next/static/css/index.Dso_Wg7y.css",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/_next/static/chunks/index-BOaQCWj4.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "probes": 2
+    },
+    {
+      "status": 404,
+      "path": "assets/_next/static/chunks/framework-D_rUT4EX.js",
+      "probes": 2
+    },
+    {
+      "status": 404,
+      "path": "assets/_next/static/chunks/layout-segment-context-wNJtNBCq.js",
+      "probes": 2
+    },
+    {
+      "status": 404,
+      "path": "assets/_next/static/chunks/page-Cxv21zlf.js",
+      "probes": 2
+    },
+    {
+      "status": 404,
+      "path": "assets/_next/static/chunks/physics-BmpKl8k3.js",
+      "probes": 2
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/use server",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "use server",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/use server",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/use server",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/use server",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/use server",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/use server",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/_next/static/chunks/layout-segment-context-wNJtNBCq.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/_next/static/chunks/layout-segment-context-wNJtNBCq.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/_next/static/chunks/layout-segment-context-wNJtNBCq.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/_next/static/chunks/layout-segment-context-wNJtNBCq.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/_next/static/chunks/layout-segment-context-wNJtNBCq.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/_next/static/chunks/framework-D_rUT4EX.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/_next/static/chunks/framework-D_rUT4EX.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/_next/static/chunks/framework-D_rUT4EX.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/_next/static/chunks/framework-D_rUT4EX.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/_next/static/chunks/framework-D_rUT4EX.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/_next/static/chunks/page-Cxv21zlf.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/_next/static/chunks/page-Cxv21zlf.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/_next/static/chunks/page-Cxv21zlf.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/_next/static/chunks/page-Cxv21zlf.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/_next/static/chunks/page-Cxv21zlf.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/_next/static/chunks/physics-BmpKl8k3.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/_next/static/chunks/physics-BmpKl8k3.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/_next/static/chunks/physics-BmpKl8k3.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/_next/static/chunks/physics-BmpKl8k3.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/_next/static/chunks/physics-BmpKl8k3.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/_next/static/chunks/streamed-icons-Cs-m6aYg.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/:[{from:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": ":[{from:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/:[{from:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/:[{from:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/:[{from:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/:[{from:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/:[{from:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/:H()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": ":H()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/:H()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/:H()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/:H()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/:H()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/:H()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": ":F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/:F()}],",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/_next/static/chunks/engine-Bi6T8dqO.js",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/brand/rider-mark.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/assets/brand/rider-mark.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/assets/brand/rider-mark.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/assets/brand/rider-mark.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/assets/brand/rider-mark.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/assets/brand/rider-mark.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/forest/ez-tree-${e}.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/forest/${t}-${r}.json",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/clothing/woodland-khaki.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/assets/clothing/woodland-khaki.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/assets/clothing/woodland-khaki.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/assets/clothing/woodland-khaki.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/assets/clothing/woodland-khaki.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/assets/clothing/woodland-khaki.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "cdn-cgi/assets/clothing/woodland-khaki.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/road/weathered-asphalt.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/assets/road/weathered-asphalt.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/assets/road/weathered-asphalt.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/assets/road/weathered-asphalt.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/assets/road/weathered-asphalt.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/assets/road/weathered-asphalt.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "cdn-cgi/assets/road/weathered-asphalt.png",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/forest/pine_color_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/assets/forest/pine_color_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/assets/forest/pine_color_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/assets/forest/pine_color_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/assets/forest/pine_color_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/assets/forest/pine_color_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "cdn-cgi/assets/forest/pine_color_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/forest/pine_normal_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/static/chunks/assets/assets/forest/pine_normal_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "assets/assets/forest/pine_normal_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/css/assets/forest/pine_normal_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/assets/forest/pine_normal_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "_next/chunks/assets/forest/pine_normal_1k.jpg",
+      "probes": 1
+    },
+    {
+      "status": 404,
+      "path": "cdn-cgi/assets/forest/pine_normal_1k.jpg",
+      "probes": 1
+    }
+  ],
+  "external": []
+}
