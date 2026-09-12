@@ -7,7 +7,8 @@
       "kind": "modular",
       "url": null,
       "sha256": "8b0634b247fabb640fe6fe13df08c5b942114df43f0beaee7bc2196c32500634",
-      "bytes": 21101
+      "bytes": 21101,
+      "probe": false
     },
     {
       "file": "src/audio.js",
@@ -115,5 +116,5 @@
       "bytes": 17171
     }
   ],
-  "note": "sha256 of every app artifact as mirrored. bundled = hashed build chunk (the thing the readable/ + src/ reverse-engineering is derived from); modular = the site's own hand-written file. --check re-hashes; any difference means this file changed after the mirror was made."
+  "note": "sha256 of every app artifact as mirrored. bundled = hashed build chunk (the thing the readable/ + src/ reverse-engineering is derived from); modular = the site's own hand-written file. --check re-hashes; any difference means this file changed after the mirror was made. cdn-cgi/ entry is Cloudflare-injected analytics, excluded from upstream probes."
 }
