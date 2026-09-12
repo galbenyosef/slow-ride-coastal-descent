@@ -1,0 +1,6 @@
+{
+  "note": "Libraries embedded in this mirror. Vendor bundles are NOT split/reversed — they are kept whole per the vendor rule and correspond to these installable packages.",
+  "dependencies": {
+    "three": "0.186.0"
+  }
+}
