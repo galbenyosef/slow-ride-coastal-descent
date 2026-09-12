@@ -1,6 +1,6 @@
 # slow-ride-coastal-descent — offline mirror
 
-![slow-ride-coastal-descent](docs/cover.svg)
+![slow-ride-coastal-descent](docs/cover.png)
 
 Offline mirror of **Slow Ride — Coastal Descent**: a scenic 3D snowboard/ski
 descent game. You pick a course section (Wild Pass, Forest Descent, Deep in the
