@@ -1,0 +1,119 @@
+{
+  "sourceUrl": "https://slow-ride-coastal-descent.madasket.chatgpt.site/",
+  "mirroredAt": "2026-09-12T12:20:42.490Z",
+  "bundles": [
+    {
+      "file": "cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "8b0634b247fabb640fe6fe13df08c5b942114df43f0beaee7bc2196c32500634",
+      "bytes": 21101
+    },
+    {
+      "file": "src/audio.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "207e38d261d33d4a116c6632c87bdaa61861d2bf8b314193b50ad093938d24d1",
+      "bytes": 6071
+    },
+    {
+      "file": "src/course.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "a48a4247100a019b7fa419b6e61ee3c5abdd60170a79f1b4b82eaf7748ffc7f4",
+      "bytes": 3900
+    },
+    {
+      "file": "src/ride-engine.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "a89c6e7a4d1f5210f239323f719454093bb579c307b774861435e7d2d02b9a83",
+      "bytes": 17545
+    },
+    {
+      "file": "src/ride-physics.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "bb792cf6c9b5567ef968bc2bfd81f3b64a52b6f24e18a02b53bc5c858425ec39",
+      "bytes": 8440
+    },
+    {
+      "file": "src/ride-ui.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "58c0d9fa98c58348cc6f043e3a542f6c2f5b94813c0eb3cd2d027e6c328dec7f",
+      "bytes": 24899
+    },
+    {
+      "file": "src/scenery.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "11e143e3d83d1301a6a55193edf7ddbeb35d9ab6c2611e26d1ca7746ddbc9e16",
+      "bytes": 6730
+    },
+    {
+      "file": "src/sky-sun.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "b9b963b723c9e7222752f153c9beb96fc8262d8325eaa75c39ad599a28cf6a91",
+      "bytes": 28337
+    },
+    {
+      "file": "src/sparks.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "9c4e9ec9383a7f2ff66a796a0141138dea59e64d96e9d54234eca35db6d37c22",
+      "bytes": 7502
+    },
+    {
+      "file": "src/terrain-gpu.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "0a33ec02c7a8aa9ca7f87ad5260a62b0b6242fa553266ea83bf7b2f0b9c8e1f1",
+      "bytes": 3353
+    },
+    {
+      "file": "src/terrain.js",
+      "kind": "modular",
+      "url": null,
+      "sha256": "b491e4a3847f45ea25c6ca5b3f38b274f7aceb3c429f30d286292dc89ce47bb4",
+      "bytes": 5727
+    },
+    {
+      "file": "_next/static/chunks/engine-Bi6T8dqO.js",
+      "kind": "bundled",
+      "url": null,
+      "sha256": "8c8eb960ba547e718b2ce5089b6f8fdb021a2190d536ea89557781f863e4233e",
+      "bytes": 745049
+    },
+    {
+      "file": "_next/static/chunks/framework-D_rUT4EX.js",
+      "kind": "bundled",
+      "url": null,
+      "sha256": "939d0fabebb3b2f01753bb866b067d8d3384fb06da19f0e6557609d3b1a9f4f7",
+      "bytes": 190152
+    },
+    {
+      "file": "_next/static/chunks/index-BOaQCWj4.js",
+      "kind": "bundled",
+      "url": null,
+      "sha256": "0a678bf3d1a6256705038d5aa29245498fbc558ca699f000b5eeabb435b5d86b",
+      "bytes": 192373
+    },
+    {
+      "file": "_next/static/chunks/page-Cxv21zlf.js",
+      "kind": "bundled",
+      "url": null,
+      "sha256": "b47dde4d1c57f3bd0bb1fedf2f69b43cbdb6c06a843f9e2352c04d0f0f06c80e",
+      "bytes": 105120
+    },
+    {
+      "file": "_next/static/chunks/physics-BmpKl8k3.js",
+      "kind": "bundled",
+      "url": null,
+      "sha256": "fc32df1a6e4010e9339646af2fbc9a55c7222f1204c874a4c29ac1bd3b834874",
+      "bytes": 17171
+    }
+  ],
+  "note": "sha256 of every app artifact as mirrored. bundled = hashed build chunk (the thing the readable/ + src/ reverse-engineering is derived from); modular = the site's own hand-written file. --check re-hashes; any difference means this file changed after the mirror was made."
+}

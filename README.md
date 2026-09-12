@@ -59,3 +59,20 @@ node tools/verify-all.mjs slow-ride-coastal-descent
 
 Every slice is checked byte-exact against its claimed line range in the
 prettified chunk.
+
+## Checking for upstream updates
+
+This mirror tracks the original bundles in `.upstream/manifest.json` — the
+SHA-256 of every app artifact (hashed build chunks **and** the site's own
+modular files) as first mirrored.
+
+- **Has my copy drifted?** `node ../tools/upstream.mjs . --check`
+  (exit 0 = unchanged; any CHANGED/ADDED/REMOVED line means a file differs
+  from the manifest).
+- **Has the original site updated?** Re-mirror the source URL above into a
+  scratch dir (e.g. `node ../tools/mirror.mjs <sourceUrl> /tmp/fresh`), then
+  compare the fresh bundles' hashes against this manifest. New hashes = new
+  deploy: re-run the split/verify pipeline (`tools/split-spec.json` +
+  `tools/verify-all.mjs`) on the updated bundle.
+- To record a deliberate local change (e.g. an offline stub), edit the file,
+  then refresh hashes with `node ../tools/upstream.mjs .`.
