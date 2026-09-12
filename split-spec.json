@@ -1,0 +1,102 @@
+{
+  "defaultFile": "ride-engine.js",
+  "source": "Byte-exact line-range cut of the site's prettified chunks (js-beautify). The served bundle splits three.js (vendor), the vinext/React runtime (vendor), the app's course/terrain module, and the ride page.",
+  "note": "Vendor rule: three.js (engine chunk lines 1-33192) and the vinext framework runtime (index chunk + page chunk lines 1-5078) are indexed whole, not sliced. Slices cover only app code.",
+  "sections": [
+    {
+      "file": "vendor-three.js",
+      "title": "three.js r1xx (bundled)",
+      "desc": "The whole three build plus app-tail-free addons, inside the engine chunk. Indexed whole: library code, not sliced. The app's own engine code starts at line 33193 (function Up).",
+      "wholeFile": "_next/static/chunks/engine-Bi6T8dqO.pretty.js"
+    },
+    {
+      "file": "sky-sun.js",
+      "title": "Sky, sun & ocean dressing",
+      "desc": "App-side sky rig on three's SkyShader: sunset/mist uniforms (Up), sun disc + glow quads (Wp), sky construction with patched fragment shader (Gp), ocean-swell GLSL (Kp), water surface (qp), sun lens flare (Jp).",
+      "startLine": 33193,
+      "endLine": 33948,
+      "sourceFile": "_next/static/chunks/engine-Bi6T8dqO.pretty.js"
+    },
+    {
+      "file": "sparks.js",
+      "title": "Spark trail particles",
+      "desc": "GPU spark-trail emitter (em): ring buffers of head/tail/fade/width attributes and the glow shader, with per-frame update().",
+      "startLine": 33949,
+      "endLine": 34150,
+      "sourceFile": "_next/static/chunks/engine-Bi6T8dqO.pretty.js"
+    },
+    {
+      "file": "audio.js",
+      "title": "Game audio",
+      "desc": "Ambient audio engine (tm): menu/soundtrack tracks, wind filter node graph, user-gesture activation, dispose.",
+      "startLine": 34151,
+      "endLine": 34332,
+      "sourceFile": "_next/static/chunks/engine-Bi6T8dqO.pretty.js"
+    },
+    {
+      "file": "ride-engine.js",
+      "title": "RideEngine",
+      "desc": "Camera presets (nm) and the engine class (rm): scene/camera/renderer setup, terrain + sky wiring, rider state machine (ready/finished), HUD visibility, dispose. Exported as `RideEngine`.",
+      "startLine": 34333,
+      "endLine": 34815,
+      "sourceFile": "_next/static/chunks/engine-Bi6T8dqO.pretty.js"
+    },
+    {
+      "file": "course.js",
+      "title": "Course layout & sections",
+      "desc": "Course constants (mountain 2400 m, valley 4200 m, sprint 3260 m), the section list (Wild Pass, Forest Descent, Deep in the Forest, Golden Switchbacks, ...), feature bands (m: curve/lean gates), noise helpers and the smoothing spline (w/T/E).",
+      "startLine": 1,
+      "endLine": 140,
+      "sourceFile": "_next/static/chunks/physics-BmpKl8k3.pretty.js"
+    },
+    {
+      "file": "terrain.js",
+      "title": "Terrain sampling",
+      "desc": "Section-aware falloff (_), easings, centreline rebuild into P[] (heading te, grade ne, perpendiculars), point lookup F, feature solvers (le) and the ridge shaping used by the road.",
+      "startLine": 141,
+      "endLine": 372,
+      "sourceFile": "_next/static/chunks/physics-BmpKl8k3.pretty.js"
+    },
+    {
+      "file": "terrain-gpu.js",
+      "title": "Terrain GLSL & surface details",
+      "desc": "Ridge drop-off (B), height field H/V, coast-continuation GLSL chunk (fe), beach/sand blend he (K/q/J), and the detail-sampling helpers (ye/be/xe/Se).",
+      "startLine": 373,
+      "endLine": 492,
+      "sourceFile": "_next/static/chunks/physics-BmpKl8k3.pretty.js"
+    },
+    {
+      "file": "scenery.js",
+      "title": "Scenery & prop placement",
+      "desc": "Deterministic prop spread over the course (Se cache, we/Te/Ee/De/Oe), section metadata ke (names/notes per section) and the tree/rock band generator (X/je/Ne/Pe).",
+      "startLine": 493,
+      "endLine": 740,
+      "sourceFile": "_next/static/chunks/physics-BmpKl8k3.pretty.js"
+    },
+    {
+      "file": "ride-physics.js",
+      "title": "Rider physics",
+      "desc": "Friction constants (Fe), speed integrators (ze/Be/Q/Ve/He/Ue), rider state snapshot (We) and the main step function et: gravity/carve/recovery, off-course handling, section progress, finish.",
+      "startLine": 741,
+      "endLine": 1039,
+      "sourceFile": "_next/static/chunks/physics-BmpKl8k3.pretty.js"
+    },
+    {
+      "file": "vendor-framework.js",
+      "title": "vinext framework runtime (bundled)",
+      "desc": "The page chunk's lines 1-5078: vinext client runtime, Base UI primitives, radix-style helpers, lucide icon table, and the shared `mountain`/`wind`/`play`/`rotate-ccw` icons. Library code, indexed whole via the engine-side vendor entry convention.",
+      "wholeFile": "_next/static/chunks/page-Cxv21zlf.pretty.js",
+      "startLine": 1,
+      "endLine": 5078,
+      "sourceFile": "_next/static/chunks/page-Cxv21zlf.pretty.js"
+    },
+    {
+      "file": "ride-ui.js",
+      "title": "Ride page UI",
+      "desc": "The page component (Go): start menu, section chooser, live HUD (speed/km/altitude), finish summary with km traveled, ride-again and section buttons.",
+      "startLine": 5079,
+      "endLine": 5764,
+      "sourceFile": "_next/static/chunks/page-Cxv21zlf.pretty.js"
+    }
+  ]
+}
