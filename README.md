@@ -62,17 +62,19 @@ prettified chunk.
 
 ## Checking for upstream updates
 
-This mirror tracks the original bundles in `.upstream/manifest.json` — the
-SHA-256 of every app artifact (hashed build chunks **and** the site's own
-modular files) as first mirrored.
+This mirror tracks the original site in `.upstream/manifest.json` — the SHA-256
+of every app artifact (hashed build chunks and the site's own modular files)
+as first mirrored.
 
-- **Has my copy drifted?** `node ../tools/upstream.mjs . --check`
-  (exit 0 = unchanged; any CHANGED/ADDED/REMOVED line means a file differs
-  from the manifest).
-- **Has the original site updated?** Re-mirror the source URL above into a
-  scratch dir (e.g. `node ../tools/mirror.mjs <sourceUrl> /tmp/fresh`), then
-  compare the fresh bundles' hashes against this manifest. New hashes = new
-  deploy: re-run the split/verify pipeline (`tools/split-spec.json` +
-  `tools/verify-all.mjs`) on the updated bundle.
+- **Live update check** (fetches the current site and compares hashes):
+  `node ../tools/check-upstream.mjs .` — or sweep the whole workspace with
+  `node ../tools/check-upstream.mjs --all`.
+  Outcomes per bundle: `same` (site unchanged), `UPDATED` (hash differs — the
+  site redeployed; re-mirror and re-run the split pipeline), `MISSING(404)`
+  (renamed/gone — redeployed), `html-fallback` (the host answers 200 with HTML,
+  so the path is not directly fetchable — try tools/mirror.mjs against the
+  source URL), `unreachable`.
+- **Local drift check** (has THIS copy changed since mirroring):
+  `node ../tools/upstream.mjs . --check`.
 - To record a deliberate local change (e.g. an offline stub), edit the file,
   then refresh hashes with `node ../tools/upstream.mjs .`.
