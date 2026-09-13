@@ -78,3 +78,24 @@ as first mirrored.
   `node ../tools/upstream.mjs . --check`.
 - To record a deliberate local change (e.g. an offline stub), edit the file,
   then refresh hashes with `node ../tools/upstream.mjs .`.
+
+## Maintaining this mirror
+
+Check whether the live site changed (fast, cached — most runs are a few seconds):
+
+```
+node tools/update.mjs
+```
+
+If it reports CHANGED/MISSING, pull the new bytes and rebuild the readable layer:
+
+```
+node tools/update.mjs --pull
+node tools/refresh.mjs
+```
+
+`refresh.mjs` re-anchors `split-spec.json` onto the new bundle (aborting if any
+seam cannot be located), re-cuts `src/`, and verifies the result is byte-exact.
+Project-specific probe lists, headers, or verification hooks go in
+`tools/update.mjs` / `tools/refresh.mjs` — these wrappers are this project's
+own and safe to customize.
