@@ -96,6 +96,7 @@ node tools/refresh.mjs
 
 `refresh.mjs` re-anchors `split-spec.json` onto the new bundle (aborting if any
 seam cannot be located), re-cuts `src/`, and verifies the result is byte-exact.
+This repo is **standalone**: the whole engine is vendored in `tools/engine/`,
+so it works after cloning anywhere with just Node — no sibling checkout.
 Project-specific probe lists, headers, or verification hooks go in
-`tools/update.mjs` / `tools/refresh.mjs` — these wrappers are this project's
-own and safe to customize.
+`tools/update.mjs` / `tools/refresh.mjs`.
