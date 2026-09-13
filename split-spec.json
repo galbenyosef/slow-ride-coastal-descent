@@ -98,5 +98,8 @@
       "endLine": 5764,
       "sourceFile": "_next/static/chunks/page-Cxv21zlf.pretty.js"
     }
+  ],
+  "provenanceFiles": [
+    "^_next/static/chunks/index-BOaQCWj4.js$"
   ]
 }
